@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maison Lumière — Spring Château</title>
+  <meta name="description" content="A cinematic scroll-driven dessert brand prototype." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading" class="loading-screen" aria-hidden="true">
+    <div class="loading-mark" aria-label="Loading">
+      <div class="crest">✦</div>
+      <p>Preparing the table...</p>
+      <div class="loading-line"><span></span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a href="#hero" class="brand">MAISON LUMIÈRE</a>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#craft">Craft</a>
+      <a href="#moments">Moments</a>
+      <a href="#story">Story</a>
+      <a href="#team">Team</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="scene hero">
+      <div class="sky-haze"></div>
+      <div class="estate estate-back"></div>
+      <div class="estate estate-main">
+        <div class="roof"></div>
+        <div class="estate-body">
+          <div class="window-row">
+            <i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="door"></div>
+        </div>
+      </div>
+      <div class="garden">
+        <span class="tree t1"></span><span class="tree t2"></span><span class="tree t3"></span>
+        <span class="tree t4"></span><span class="tree t5"></span>
+        <span class="fountain"></span>
+        <span class="path"></span>
+      </div>
+
+      <div class="hero-copy reveal">
+        <span class="eyebrow">A SPRING CHÂTEAU</span>
+        <h1>Made for moments<br/>worth remembering.</h1>
+        <p>從一座春日莊園開始，探索每一份甜點背後的味道、工藝與故事。</p>
+        <span class="scroll-hint">SCROLL TO ENTER ↓</span>
+      </div>
+    </section>
+
+    <section id="collection" class="scene collection">
+      <div class="section-copy">
+        <span class="eyebrow">01 — THE COLLECTION</span>
+        <h2>先看見甜點，<br/>再慢慢認識它。</h2>
+        <p>滑過甜點即可聚焦，點一下展開重點資訊，不跳頁、不離開場景。</p>
+      </div>
+
+      <div class="dessert-stage">
+        <div class="table-top"></div>
+
+        <button class="dessert d1" data-name="Spring Berry Tart"
+          data-desc="莓果酸甜 × 香草奶餡"
+          data-price="NT$ 320"
+          data-story="以春季莓果為主角，酸甜明亮，適合作為午後第一口。">
+          <span class="plate"></span><span class="food tart"></span>
+        </button>
+
+        <button class="dessert d2" data-name="Pistachio Éclair"
+          data-desc="開心果 × 法式奶油"
+          data-price="NT$ 260"
+          data-story="香氣濃郁但不厚重，適合喜歡堅果風味的人。">
+          <span class="plate"></span><span class="food eclair"></span>
+        </button>
+
+        <button class="dessert d3" data-name="Vanilla Cloud"
+          data-desc="香草 × 輕盈慕斯"
+          data-price="NT$ 290"
+          data-story="口感柔軟、甜度收斂，作為經典系列的核心品項。">
+          <span class="plate"></span><span class="food mousse"></span>
+        </button>
+
+        <button class="dessert d4" data-name="Cocoa Noisette"
+          data-desc="可可 × 榛果脆片"
+          data-price="NT$ 340"
+          data-story="深一點的風味層次，帶有堅果與可可尾韻。">
+          <span class="plate"></span><span class="food cocoa"></span>
+        </button>
+
+        <button class="dessert d5" data-name="Lemon Madeleine"
+          data-desc="檸檬皮 × 奶油香"
+          data-price="NT$ 180"
+          data-story="輕巧、清爽，適合作為禮盒與日常下午茶。">
+          <span class="plate"></span><span class="food madeleine"></span>
+        </button>
+
+        <aside class="detail-card" id="detailCard">
+          <div class="detail-line"></div>
+          <span class="eyebrow">SELECTED PIECE</span>
+          <h3 id="detailName">Spring Berry Tart</h3>
+          <p id="detailDesc">莓果酸甜 × 香草奶餡</p>
+          <div class="detail-meta">
+            <span id="detailPrice">NT$ 320</span>
+            <span>Signature</span>
+          </div>
+          <p class="detail-story" id="detailStory">以春季莓果為主角，酸甜明亮，適合作為午後第一口。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="craft" class="scene craft">
+      <div class="wipe-object"></div>
+      <div class="content-card">
+        <span class="eyebrow">02 — OUR CRAFT</span>
+        <h2>我們的堅持，<br/>藏在每一個細節裡。</h2>
+        <div class="pillars">
+          <article><strong>01</strong><h3>Ingredient</h3><p>原料風味清楚，不讓裝飾蓋過甜點本身。</p></article>
+          <article><strong>02</strong><h3>Balance</h3><p>甜度、酸度、口感彼此平衡，讓每一口都有層次。</p></article>
+          <article><strong>03</strong><h3>Handmade</h3><p>保留手作質感，而不是追求完全一致的工業感。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="moments" class="scene moments">
+      <div class="section-copy">
+        <span class="eyebrow">03 — MADE FOR MOMENTS</span>
+        <h2>有些甜點，<br/>是為了某個時刻而存在。</h2>
+      </div>
+      <div class="moment-track">
+        <article><span>01</span><h3>Afternoon</h3><p>一個人也值得好好吃一份甜點。</p></article>
+        <article><span>02</span><h3>Celebration</h3><p>生日、紀念日，或任何想被記住的日子。</p></article>
+        <article><span>03</span><h3>Gift</h3><p>把心意包裝成一份可以被帶走的味道。</p></article>
+      </div>
+    </section>
+
+    <section id="story" class="scene story">
+      <div class="story-window">
+        <div>
+          <span class="eyebrow">04 — OUR STORY</span>
+          <h2>不是為了做得華麗，<br/>而是想讓人記得。</h2>
+          <p>品牌故事可以放在這裡。比起大量文字，建議只保留 2–3 段真正有辨識度的內容，讓畫面和敘事一起說話。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="scene team">
+      <div class="section-copy">
+        <span class="eyebrow">05 — THE PEOPLE</span>
+        <h2>最後，認識讓這一切發生的人。</h2>
+      </div>
+      <div class="portrait-wall">
+        <article class="portrait"><div class="portrait-art p1"></div><h3>Alex</h3><p>Pastry / Creative</p></article>
+        <article class="portrait"><div class="portrait-art p2"></div><h3>Jamie</h3><p>Brand / Visual</p></article>
+        <article class="portrait"><div class="portrait-art p3"></div><h3>Morgan</h3><p>Operations</p></article>
+        <article class="portrait"><div class="portrait-art p4"></div><h3>Taylor</h3><p>Customer Experience</p></article>
+      </div>
+    </section>
+
+    <section class="scene finale">
+      <div class="final-card">
+        <span class="eyebrow">THE INVITATION</span>
+        <h2>Stay for something sweet.</h2>
+        <p>最後的 CTA 可以放訂購、預約、門市資訊或聯絡方式。</p>
+        <a href="#collection" class="cta">Explore the collection</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
